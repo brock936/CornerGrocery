@@ -14,7 +14,7 @@ class ItemTracker {
 private:
     map<string, int> itemFrequency;
 
-    // Load data from input file into the map
+    // Load data from input file into the Map
     void loadItemsFromFile(const string& filename) {
         ifstream inputFile(filename);
         string item;
